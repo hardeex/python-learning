@@ -1,11 +1,17 @@
+# the given statement
 print("We check in a patient named John Smith \n He's 20 years old and is a new patient")
+# create an empty line for spacing
 print("\n")
+# print us the expected result
 print("TASK: Define three variables for \n 1. nae\n 2. age \n 3. check if he's a new or existing patient ")
+# create an empty line for spacing
 print("\n")
 print("My solution:")
+# declaring the variables
 name = "John Smith"
 age = 20
 isNew = True
+
 
 print("The patient name is: " + name)
 print("The patient is ",  age, 'years old')
@@ -15,8 +21,8 @@ if(isNew):
 else: print(name + "is an old patient")
 
 print("Make the question a structured")
-getName = input("what's your name? ")
-getAge = input("Enter your age: ")
+getName = str(input("what's your name? "))
+getAge = int(input("Enter your age: "))
 gender = input("Are you a male or female? ")
 status = input("Are you a new or old patient: ")
 
